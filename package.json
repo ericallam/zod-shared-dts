@@ -1,0 +1,21 @@
+{
+  "name": "zod-shared-dts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rimraf dist",
+    "build": "npm run clean && npm run build:tsup",
+    "build:tsup": "tsup"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "zod": "^3.20.2"
+  },
+  "devDependencies": {
+    "rimraf": "^4.1.2",
+    "tsup": "^6.5.0",
+    "typescript": "^4.9.4"
+  }
+}
