@@ -2,7 +2,20 @@
 
 This repo demonstrates a possible issue with Zod: reusing schemas can generate very large `.d.ts` files when built because of the way Zod works.
 
-For example, this code:
+## Instructions
+
+Clone the repo, install dependencies, and run build:
+
+```sh
+git clone https://github.com/ericallam/zod-shared-dts.git
+cd zod-shared-ts
+npm i
+npm run build
+```
+
+## Explanation
+
+This code:
 
 ```ts
 import { z } from "zod";
